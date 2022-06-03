@@ -30,7 +30,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[Scroll Demo](https://imgur.com/4cJJrYb.gif)
+<img src='./flixster_rotate.gif' width='300' title='rotate'alt = 'rotate'>
+<img src='./flixster_scroll.gif' width='300' title='scroll'alt = 'scroll'>
 
 [Rotate Demo](https://imgur.com/lECl8qv.gif)
 
