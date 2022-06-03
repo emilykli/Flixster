@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.example.flixster.MovieDetailsActivity;
 import com.example.flixster.R;
 import com.example.flixster.models.Movie;
@@ -90,7 +91,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
                 placeholderImg = R.drawable.flicks_backdrop_placeholder;
             }
 
-            Glide.with(context).load(imageURL).placeholder(placeholderImg).into(ivPoster);
+            Glide.with(context).load(imageURL).placeholder(placeholderImg).transform(new RoundedCorners(30)).into(ivPoster);
         }
 
         @Override

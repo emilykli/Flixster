@@ -7,10 +7,11 @@
 
     <ImageView
         android:id="@+id/ivPoster"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="180dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         tools:srcCompat="@tools:sample/avatars" />
@@ -23,7 +24,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:textSize="20sp"
+        android:textSize="22sp"
         tools:text="Title of the Movie" />
 
     <TextView
@@ -33,7 +34,6 @@
         android:layout_below="@+id/tvTitle"
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="15dp"
         tools:text="bottom text" />
 </RelativeLayout>

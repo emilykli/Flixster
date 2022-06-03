@@ -3,14 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#212224">
 
     <ImageView
         android:id="@+id/ivPoster"
         android:layout_width="120dp"
-        android:layout_height="wrap_content"
+        android:layout_height="180dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         tools:srcCompat="@tools:sample/avatars" />
@@ -23,7 +25,8 @@
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/ivPoster"
         android:textSize="20sp"
-        tools:text="Title of the Movie" />
+        tools:text="Title of the Movie"
+        android:textColor="#EFF4FF"/>
 
     <TextView
         android:id="@+id/tvOverview"
@@ -32,7 +35,7 @@
         android:layout_below="@+id/tvTitle"
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="10dp"
-        tools:text="bottom text" />
+        android:layout_marginBottom="15dp"
+        tools:text="bottom text"
+        android:textColor="#AEB5C4"/>
 </RelativeLayout>
