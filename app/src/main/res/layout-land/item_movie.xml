@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#212224">
 
     <ImageView
         android:id="@+id/ivPoster"
@@ -25,7 +26,8 @@
         android:layout_marginEnd="5dp"
         android:layout_toEndOf="@+id/ivPoster"
         android:textSize="22sp"
-        tools:text="Title of the Movie" />
+        tools:text="Title of the Movie"
+        android:textColor="#EFF4FF"/>
 
     <TextView
         android:id="@+id/tvOverview"
@@ -35,5 +37,6 @@
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/ivPoster"
         android:layout_marginBottom="15dp"
-        tools:text="bottom text" />
+        tools:text="bottom text"
+        android:textColor="#AEB5C4"/>
 </RelativeLayout>
