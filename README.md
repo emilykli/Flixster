@@ -30,8 +30,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='[Scroll Demo](https://imgur.com/4cJJrYb.gif)'/>
-<img src='[Rotate Demo](https://imgur.com/lECl8qv.gif)'/>
+[Scroll Demo](https://imgur.com/4cJJrYb.gif)
+
+[Rotate Demo](https://imgur.com/lECl8qv.gif)
 
 GIF created with [Kap](https://getkap.co/).
 
